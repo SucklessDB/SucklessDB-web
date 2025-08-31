@@ -1,0 +1,18 @@
+{
+  "name": "sucklessdb-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.13.5"
+  },
+  "author": "",
+  "packageManager": "pnpm@10.15.0"
+}
