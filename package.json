@@ -1,18 +1,24 @@
 {
-  "name": "sucklessdb-web",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^5.13.5"
-  },
-  "author": "",
-  "packageManager": "pnpm@10.15.0"
+    "name": "sucklessdb-web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@astrojs/ts-plugin": "^1.10.4",
+        "@tailwindcss/vite": "^4.1.12",
+        "astro": "^5.13.5",
+        "tailwindcss": "^4.1.12"
+    },
+    "author": "",
+    "packageManager": "pnpm@10.15.0",
+    "devDependencies": {
+        "daisyui": "^5.0.54"
+    }
 }

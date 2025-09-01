@@ -1,0 +1,10 @@
+---
+import { Image } from 'astro:assets';
+import icon from './icon.svg';
+
+const { size } = Astro.props;
+
+const finalSize = size || 32;
+---
+
+<Image src={icon} alt="SucklessDB Logo" width={finalSize} height={finalSize} />

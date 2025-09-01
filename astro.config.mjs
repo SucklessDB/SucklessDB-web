@@ -1,7 +1,10 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://sucklessdb.github.io',
-  base: '/SucklessDB-web',
+    site: 'https://sucklessdb.app',
+
+    vite: {
+        plugins: [tailwindcss()]
+    }
 });
