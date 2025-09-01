@@ -2,6 +2,6 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'sucklessdb.github.io',
+  site: 'https://sucklessdb.github.io',
   base: '/SucklessDB-web',
 });
