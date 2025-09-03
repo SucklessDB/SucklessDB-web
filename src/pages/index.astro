@@ -1,16 +1,21 @@
 ---
 import DefaultLayout from '@/layouts/default.astro';
+import Icon from '@/components/icon/icon.astro';
 ---
 
 <DefaultLayout>
     <div class="hero min-h-screen">
-        <div class="hero-content text-center">
+        <div class="hero-content text-left">
+            <Icon size="180"/>
+
             <div class="max-w-lg">
                 <h1 class="text-5xl font-bold">SucklessDB</h1>
                 <p class="py-6">
                     A fast, lightweight, and open-source desktop database client. Built to be simple, intuitive, and efficient — everything you need to manage your data.
                 </p>
-                <a href="https://github.com/SucklessDB/SucklessDB" class="btn btn-primary">View on GitHub</a>
+                <div class="flex justify-end">
+                    <a href="https://github.com/SucklessDB/SucklessDB" class="btn btn-primary">View on GitHub</a>
+                </div>
             </div>
         </div>
     </div>
